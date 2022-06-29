@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $color-secundario;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
+    text-align: center;
+}
+
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif important ;
+}
+
+img {
+    max-width: 100%;
+}

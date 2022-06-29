@@ -1,0 +1,184 @@
+
+/* media TABLET */ 
+@media screen and (max-width: 1023px) { 
+    .texto-intro{
+        font-size: 32px;
+        text-align: center;
+    }
+    .texto{
+        text-align: center;
+    }
+    .link{
+        font-size: 2ch;
+    }
+    .contacto {
+        flex-direction: column;
+    }
+    .texto-c {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+    }
+    .icono-c {
+        height: auto;
+    }
+}
+
+/* media PHONE */ 
+@media screen and (max-width: 600px) { 
+    .texto-intro{
+        font-size: 25px;
+        text-align: center;
+    }
+    .texto{
+        font-size: 15px;
+        text-align: center;
+    }
+    .textoN{
+        font-size: 16px !important;
+        text-align: center;
+    }
+    .textoG{
+        font-size: medium;
+    }
+    .textoS{
+        font-size: 18px !important;
+    }
+    .footer{
+        font-size: 80%;
+    }
+    .link{
+        font-size: 1ch;
+    }
+
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: none;
+        height: auto;
+    }
+    
+    .nav {
+        display: none;
+        font-size: 18px !important;
+        text-align: center;
+    }
+
+    .items {
+        display: block;
+    }
+
+    .header-open {
+        text-decoration: none;
+    }
+    .header-logo{
+        display: block;
+        width: 100%;
+    }
+
+
+    .fa-bars {
+        display: block;
+        font-size: 2rem;
+        color: #f3c081;
+        z-index: 100;
+        align-self: flex-end;
+        margin-left: 2px;
+    }
+
+    #lateral {
+        display: block;
+        background-color: #262626;
+        width: 80%;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+        position: fixed;
+        z-index: 999;
+        top: 0%;
+        right: -100%;
+        transition: right 0.7s;
+    }
+
+    #lateral:target {
+        right: 0;
+    }
+
+    .navul {
+        text-decoration: none;
+    }
+
+    .closeenlace {
+    text-decoration: none;
+    display: block;
+    list-style: none;
+    color: #f3c081;
+    font-size: 184%;
+    margin-top: 1rem;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .texto-c {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto .texto-c{
+        display: flex;
+        flex-direction: column;
+    }
+    .formulario-c{
+        width: auto;
+        margin: 0 0;
+        flex-direction: row;
+    }
+
+    .formulario{
+        width: auto;
+    }
+
+    .textoc {
+        font-size: 15px;
+    }
+    .cta span{
+        font-size: 10px;
+    }
+    .cta:before{
+        width: 45px;
+        height: 45px;
+    }
+
+    .servicio {
+        flex-direction: column-reverse !important;
+    }
+    
+    .servicios {
+        flex-direction: column !important;
+    }
+
+    .nosotrosT {
+        flex-direction: column !important;
+    }
+
+    .imgN {
+        width: auto;
+        margin: 0 !important;
+    }
+    .accordion-button{
+        font-size: 25px !important;
+    }
+    .accordion-body{
+        font-size: 16px !important;
+    }
+
+    .fondos {
+        width: 100%;
+        margin: 8px 0;
+    }
+}

@@ -1,0 +1,108 @@
+
+/* -------CONTACTO----- */
+
+.formulario-c{
+    background-color: $color-secundario;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto; 
+    .formulario{
+        padding: .8rem;
+        overflow: hidden;
+        color: #2d5261;
+        width: 500px;
+    }
+}
+
+.formulario label, .formulario input, .formulario textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.formulario label{
+    font-weight: 400;
+}
+
+.formulario input, .formulario textarea{
+    border: none;
+    border-bottom: 2px solid $color-principal;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+    background-color: rgb(202, 230, 255);
+}
+
+.formulario textarea {
+    min-height: 100px;
+}
+
+input[type= 'submit'] {
+    padding: 10px;
+    border: none;
+    background-color: $color-principal;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* -----Contacto2----- */
+.contacto {
+    display: flex;
+    margin-top: 2rem;
+    .texto-c {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        justify-items: center;
+        margin-bottom: 2rem;
+    }
+}
+
+.texto-introc{
+    display: flex;
+    justify-content: center;
+    font-size: 25px ;
+    list-style: none;
+    margin-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.textoc{
+    display: flex;
+    justify-content: center;
+    font-size: 20px ;
+    list-style: none;
+    margin-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+
+
+
+.icono-c{
+    background-color: $color-principal;
+    color: #f3c081;
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.icon {
+    font-size: 35px;
+    margin-top: 4rem;
+}
+
+.table {
+    background-color: $color-principal;
+    color: #f3c081;
+}

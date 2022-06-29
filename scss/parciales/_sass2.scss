@@ -1,0 +1,27 @@
+
+$flex: (
+    display: flex,
+    flex-diretion: column,
+    justify-content: center,
+);
+
+.header {
+    display: map-get($flex, display);
+    flex-direction: map-get($flex, flex-direction);
+    justify-content: map-get($flex, end );
+}
+
+.container__card {
+    display: map-get($flex , display );
+    justify-content: map-get($flex , center );
+}
+
+.card__front {
+    display: map-get($flex , display );
+    flex-direction: map-get($flex, flex-direction);
+}
+
+.body__card_front {
+    display: map-get($flex , display );
+    justify-content: map-get($flex , center );
+}
